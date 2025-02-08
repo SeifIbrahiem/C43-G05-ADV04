@@ -29,31 +29,60 @@ namespace C43_G05_ADV04
 
             #region ex1 with hashtable
 
-            Hashtable PhoneBook=new Hashtable();
-            PhoneBook.Add("seif", 1111);
-            PhoneBook.Add("ali", 22222);
-            PhoneBook.Add("alia", 333322);
-            PhoneBook.Add("amer", 2888822);
-            Console.WriteLine(PhoneBook.Count);
-            Console.WriteLine(PhoneBook.IsFixedSize);
-            Console.WriteLine(PhoneBook.IsReadOnly);
-            foreach (DictionaryEntry item in PhoneBook) 
-            {
-                Console.WriteLine(item);
-            }
-            foreach (var item in PhoneBook.Values)
-            {
-                Console.WriteLine(item);
-            }
-            foreach (var item in PhoneBook.Keys)
-            {
-                Console.WriteLine(item);
-            }
+            //Hashtable PhoneBook=new Hashtable();
+            //PhoneBook.Add("seif", 1111);
+            //PhoneBook.Add("ali", 22222);
+            //PhoneBook.Add("alia", 333322);
+            //PhoneBook.Add("amer", 2888822);
+            //Console.WriteLine(PhoneBook.Count);
+            //Console.WriteLine(PhoneBook.IsFixedSize);
+            //Console.WriteLine(PhoneBook.IsReadOnly);
+            //foreach (DictionaryEntry item in PhoneBook) 
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //foreach (var item in PhoneBook.Values)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //foreach (var item in PhoneBook.Keys)
+            //{
+            //    Console.WriteLine(item);
+            //}
             //contain==containkey
             //Var x = 12 ;
             //Var x = 12.5 ;
             //Var x = "ali" ;
             #endregion
+
+            #region generic with hashtable
+            //Dictionary<string,long> phonebook = new Dictionary<string,long>();
+            //phonebook.Add("seif", 2222);
+            //phonebook.Add("saied", 2552);
+            //phonebook.Add("sammy", 7722);
+            //phonebook.Add("soma", 88822);
+            //foreach (KeyValuePair<string,long> item in phonebook)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
+            #region hashset
+            //HashSet<string> phonebook = new HashSet<string>();
+            //phonebook.Add("seif");
+            //phonebook.Add("saied");
+            //phonebook.Add("sammy");
+            //phonebook.Add("soma");
+            //foreach (var item in phonebook)
+            //{
+            //    Console.WriteLine(item);
+            //} 
+            #endregion
+
+            #region sorted
+
+            #endregion
+
 
         }
     }
