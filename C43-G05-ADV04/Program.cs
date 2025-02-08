@@ -79,8 +79,12 @@ namespace C43_G05_ADV04
             //} 
             #endregion
 
-            #region sorted
-
+            #region sorted datastructure in c#
+            //sorted dictionary
+            //sorted set 
+            //sorted list
+            //sortedlist<int,string>pairs=new sortedlist<int,string>();
+            //sortedset<int>values=newsortedset<int>();
             #endregion
 
 
